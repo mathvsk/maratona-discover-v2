@@ -5,6 +5,6 @@ const {open} = require ("sqlite")
 
 // estrutura de arrow function para fazer o open funcionar(conexao com bd)
 module.exports = () => open({
-    filename: "./databse.sqlite",
+    filename: "./database.sqlite",
     driver: sqlite3.Database
   })
