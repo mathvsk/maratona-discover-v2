@@ -85,7 +85,7 @@
           <% jobs.forEach((job) => { %>
 
             <div class="card <%= job.status %> " data-id="<%= job.id %> ">
-              <div class="id column"><%= job.id %> </div>
+              <div class="id column"> <!-- Desabilitei essa parte porque a exibiçao do indice não atualizava corretamente o id <%= job.id %> --> </div>
               <div class="name column">
                 <%= job.name %> 
               </div>
